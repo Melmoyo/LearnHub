@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@theme {
+  --color-cream: #f7f3ec;
+  --color-dark: #1c1a17;
+  --color-muted: #6b6560;
+  --color-amber: #d4860a;
+  --color-amber-light: #fdf0d5;
+  --color-amber-border: #e8c070;
+  --color-surface: #ffffff;
+  --color-border: #e2ddd6;
+  --color-danger: #c0392b;
+  --color-danger-light: #fdecea;
+  --color-success: #1a7c4c;
+  --color-success-light: #e8f5ee;
+
+  --font-display: "Playfair Display", serif;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-cream;
+  }
+}
